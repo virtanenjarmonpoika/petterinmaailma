@@ -8,3 +8,11 @@ p {
   color: green;
   font-size: 12px;
 }
+div.style {
+  border-style: dotted;
+  border-width: 2px;
+}
+div.height {
+  width: 100px;
+  height: 100px;
+}
