@@ -11,6 +11,7 @@ p {
 div.style {
   border-style: dotted;
   border-width: 2px;
+  border-color: green;
 }
 div.height {
   width: 100px;
@@ -18,4 +19,5 @@ div.height {
 }
 div {
   background-color: red;
+  
 }
