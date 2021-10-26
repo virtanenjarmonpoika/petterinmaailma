@@ -9,4 +9,11 @@ p {
   color: green;
   font-size: 12px;
 }
+div {
+  border-style: dotted;
+  border-widht: 2px;
+  widht: 100px;
+  height: 100px;
 }
+.numbers-to-letters {list-style: lower-alpha;}
+.dots-to-squares {list-style: square;}
