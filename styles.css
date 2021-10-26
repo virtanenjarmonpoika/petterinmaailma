@@ -11,8 +11,8 @@ p {
 }
 div {
   border-style: dotted;
-  border-widht: 2px;
-  widht: 100px;
+  border-width: 2px;
+  width: 100px;
   height: 100px;
 }
 .numbers-to-letters {list-style: lower-alpha;}
