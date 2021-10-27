@@ -21,3 +21,9 @@ div.header {
   padding: 50px;
   margin: 50px;
 }
+.center {
+  margin: auto;
+  width: 100%;
+  border: 3px solid greenyellow;
+  padding: 10px;
+}
