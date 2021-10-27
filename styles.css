@@ -17,3 +17,7 @@ div {
 }
 .numbers-to-letters {list-style: lower-alpha;}
 .dots-to-squares {list-style: square;}
+div.header {
+  padding: 50px;
+  margin: 50px;
+}
