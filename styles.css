@@ -4,6 +4,10 @@ body {
 }
 h1 {
   font-size: 20px;
+  border: solid;
+  border-color: greenyellow;
+  border-width: 2px;
+  text-align: center;
 }
 p {
   color: green;
