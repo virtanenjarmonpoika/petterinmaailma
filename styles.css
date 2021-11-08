@@ -12,6 +12,9 @@ h1 {
 p {
   color: green;
   font-size: 12px;
+  background-color: aliceblue;
+  border: chartreuse;
+  border-radius: 10px;
 }
 div {
   border-style: none;
