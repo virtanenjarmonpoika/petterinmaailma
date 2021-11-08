@@ -8,6 +8,9 @@ h1 {
   border-color: greenyellow;
   border-width: 2px;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
 }
 p {
   color: green;
@@ -15,6 +18,11 @@ p {
   background-color: aliceblue;
   border: chartreuse;
   border-radius: 10px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+
 }
 div {
   border-style: none;
