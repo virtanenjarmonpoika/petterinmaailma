@@ -67,14 +67,14 @@ div.header {
   top: 142px;
   left: 182px;
   height: 500px;
-  width: 420px;
+  width: 100%;
   text-align: center;
   border-color: greenyellow;
   
 }
 #footteri {
   height: 50px;
-  width: 575px;
+  width: 100%;
   background-color: hotpink;
   color: black;
   text-align: center;
