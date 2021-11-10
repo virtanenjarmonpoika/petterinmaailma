@@ -46,7 +46,7 @@ div.header {
   border-style: solid;
 }
 #headeri {
-  width: 100%;
+  width: auto;
   height: 100px;
   background-color: darkgrey;
   text-align: center;
@@ -57,7 +57,7 @@ div.header {
 }
 #navi {
   width: 150px;
-  height: 500px;
+  height: auto;
   background-color: rgb(58, 224, 216);
   border-style: solid;
   border-color: greenyellow
@@ -69,14 +69,14 @@ div.header {
   top: 142px;
   left: 182px;
   height: 500px;
-  width: 100%;
+  width: auto;
   text-align: center;
   border-color: greenyellow;
   
 }
 #footteri {
   height: 50px;
-  width: 100%;
+  width: auto;
   background-color: hotpink;
   color: black;
   text-align: center;
