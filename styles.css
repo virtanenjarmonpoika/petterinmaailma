@@ -52,9 +52,9 @@ header {
   text-align: center;
   border-style: solid;
   border-color: greenyellow;
-  padding-bottom: 30px;
+  padding: 30px;
   color: rgb(7, 34, 0);
-  font-size: 20px;
+  font-size: 50px;;
   margin: auto;
 }
 nav {
@@ -87,4 +87,9 @@ section::after {
   content: "";
   display: table;
   clear: both;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
