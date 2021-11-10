@@ -57,7 +57,7 @@ div.header {
 }
 #navi {
   width: 150px;
-  height: auto;
+  height: 700px;
   background-color: rgb(58, 224, 216);
   border-style: solid;
   border-color: greenyellow
@@ -67,7 +67,7 @@ div.header {
   border-style: solid;
   position: absolute;
   top: 142px;
-  left: 182px;
+  left: 250px;
   height: 500px;
   width: auto;
   text-align: center;
