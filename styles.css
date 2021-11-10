@@ -45,7 +45,7 @@ div.header {
   padding: 10px;
   border-style: solid;
 }
-#headeri {
+header {
   width: auto;
   height: 100px;
   background-color: darkgrey;
@@ -53,9 +53,11 @@ div.header {
   border-style: solid;
   border-color: greenyellow;
   padding-bottom: 30px;
-  color: rgb(51, 117, 35)
+  color: rgb(7, 34, 0);
+  font-size: 20px;
+  margin: auto;
 }
-#navi {
+nav {
   width: 20%;
   height: 700px;
   background-color: rgb(58, 224, 216);
@@ -66,18 +68,23 @@ div.header {
   padding-right: 20px;
 
 }
-#maini {
+article {
   float: left;
-  border-style: solid;
+  border-style: none;
   height: auto;
   width: 70%;
   text-align: center;
   border-color: greenyellow;
   
 }
-#footteri {
+footer {
 background-color: hotpink;
 padding: 10px;
 text-align: center;
 color: black;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
