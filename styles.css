@@ -76,11 +76,8 @@ div.header {
   
 }
 #footteri {
-  height: 50px;
-  width: auto;
-  background-color: hotpink;
-  color: black;
-  text-align: center;
-}
-* {box-sizing: border-box;
+background-color: hotpink;
+padding: 10px;
+text-align: center;
+color: black;
 }
