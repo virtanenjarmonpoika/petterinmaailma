@@ -1,7 +1,7 @@
 body {
   color: white;
   background-color: black;
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
  
@@ -56,20 +56,21 @@ div.header {
   color: rgb(51, 117, 35)
 }
 #navi {
-  width: 150px;
+  width: 20%;
   height: 700px;
   background-color: rgb(58, 224, 216);
   border-style: solid;
-  border-color: greenyellow
+  border-color: greenyellow;
+  float: left;
+  text-align: left;
+  padding-right: 20px;
+
 }
 #maini {
   float: left;
   border-style: solid;
-  position: absolute;
-  top: 142px;
-  left: 250px;
-  height: 500px;
-  width: auto;
+  height: auto;
+  width: 70%;
   text-align: center;
   border-color: greenyellow;
   
@@ -80,5 +81,4 @@ div.header {
   background-color: hotpink;
   color: black;
   text-align: center;
-  padding-top: 20px;
 }
