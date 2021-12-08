@@ -1,1 +1,33 @@
+.laatikko {
+    background-color: crimson;
+    width: 100px;
     height: 100px;
+    box-shadow: 2px 2px black;
+    text-align: center;
+
+}
+
+h1 {
+    text-shadow: 2px 1px crimson;
+}
+
+.kuvalaatikko {
+    background-image: url('leonardno.jpg');
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+
+}
+
+.linkit a:hover {
+    background-color: crimson;
+    transition: 1s;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: darkcyan;
+        color: darkred;
+    }
+}
