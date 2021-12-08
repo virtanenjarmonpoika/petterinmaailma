@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(2, 80, 32);
+    color: white;
+    margin: 0 5% 0 5%;
+                                                
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.mobile-nav-toggle {
+    display: none;
+
+
+}
+
+#primary-nav {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    gap: 10rem;
+    background: hsl(0 74% 100% / 0.1);
+    backdrop-filter: blur(1em);
+    font-family: "Marvel";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px red;
+}
+
+#primary-nav a {
+    text-decoration: none;
+    margin-inline-end: 0.5em;
+    color: rgb(177, 174, 2)
+}
+
+#primary-nav a:hover {
+    color: rgb(242, 255, 66);
+    transition: 0.5s;
+}
+
+.main-name {
+    text-align: center;
+    font-family: "Marvel";
+    font-size: 6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    outline: 2px solid rgb(252, 205, 51);
+    padding-top: 15px;
+    text-shadow: 3px 3px 5px red;
+    
+}
+
+.smallprint {
+    font-size: 70%;
+}
+
+.main-pic {
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 35em) {
+
+    #primary-nav {
+        position: fixed;
+        inset: 0 0 0 50%;
+        background-color:  rgb(177, 42, 42);
+        flex-direction: column;
+        padding: 7rem 2em;
+        background-color: hsl(0 74% 100% / 0.1);
+        backdrop-filter: blur(1em);
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+        gap: 3rem;
+    }
+
+    #primary-nav[data-visible="true"] {
+        transform: translateX(0%)
+    }
+
+    
+
+    .mobile-nav-toggle {
+        position: absolute;
+        top: 2rem;
+        background-repeat: no-repeat;
+        right: 2rem;
+        z-index: 9999;
+        display: block;
+        cursor: pointer;
+    }
+
+
+
+    .mobile-nav-toggle[aria-expanded="true"] {
+        background-color: whitesmoke;
+    }
+
+    
+}
